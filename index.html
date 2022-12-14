@@ -13,38 +13,54 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
     <!--End Google fonts links-->
+    <!--Normalize-->
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+        <!--Normalize end-->
 
 </head>
 
 <body>
-    <header class="header">
+<header class="header">
+<div class="container header-container">
+    <div class="header-container">
         <a class="logo" href="index.html"><span class="brand-color-blue">Web</span>Studio</a>
-    <nav>
-        <ul class="list-style">
+        <nav>
+        <ul class="list-style header-nav-container">
             <li><a class="menu-link-activ" href="/index.html">Agencja</a></li>
             <li><a href="./portfolio.html" class="menu-link">Portfolio</a></li>
             <li><a href="/index.html" class="menu-link">Kontakt</a></li>
         </ul>
-    </nav>
-    <ul class="list-style">
+        </nav>
+    </div>
+    <div class="header-nav-container">
+        <ul class="list-style header-container">
         <li><a class="menu-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a class="menu-contact-link" href="tel:48111111111">+48 111 111 111</a></li>
-    </ul>
+        </ul>
+    </div>
+</div>
 </header>
  
 
     <main>
         <!--HERO-->
-        <section class="header-one-structure">
-            <h1 class="header-one">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <section class="header-one-structure section">
+            <div class="container">
+            <h1 class="header-one">EFEKTYWNE ROZWIĄZANIA <br>DLA WASZEGO BIZNESU</h1>
             <button type="button" class="header-one-button" >Zamów usługę</button>
+            </div>
         </section>
 
         <!--LOREM IPSUM-->
-        <section>
+        <section class="section">
+            <div class="container">
             <h2 class="visually-hidden">LOREM IPSUM</h2>
 
-        <ul class="list-style">
+        <ul class="list-style photo-list">
             <li>
             <h3 class="lorem-h3">LOREM IPSUM</h3>
             <p class="lorem-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et
@@ -66,12 +82,14 @@
                 malesuada</p>
             </li>
         </ul>
+        </div>
         </section>
         
         <!--czym sie zajmujemy-->
-        <section>
+        <section class="section">
+            <div class="container">
             <h2 class="header-two">Czym się zajmujemy</h2>
-            <ul class="list-style">
+            <ul class="list-style photo-list">
                 <li><img src="images/Czym_się_zajmujemy_img1.jpg" alt="człowiek programuje na tablecie" width="370"
                         height="294">
                 </li>
@@ -82,12 +100,14 @@
                         height="294">
                 </li>
             </ul>
+            </div>
         </section>
         
         <!--Nasz zespół-->
-        <section class="team">
+        <section class="team section">
+            <div class="container">
             <h2 class="header-two"> Nasz zespół </h2>
-            <ul class="list-style">
+            <ul class="list-style photo-list">
                 <li>
                     <img src="images/Nasz_zespół_img1.jpg" alt="John Doe1" width="270" height="260">
                     <h3 class="team-name">John Doe</h3>
@@ -109,11 +129,13 @@
                     <p class="team-job">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
     
     
     <footer class="footer">
+        <div class="container">
         <a class="footer-logo" href="index.html"><span class="brand-color-blue">Web</span>Studio</a>
         <address class="address style">
             <ul class="list-style">
@@ -122,7 +144,7 @@
                 <li><a class="footer-link-contact" href="tel:48111111111">+48 111 111 111</a></li>
             </ul>
         </address>
-
+        </div>
     </footer>
 </body>
 </html>
