@@ -35,6 +35,8 @@ border-bottom: 1px solid var(--brand-header-border);
    display: flex; 
 align-items: center;
 justify-content: space-between;
+padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .header-nav-container {
@@ -55,9 +57,9 @@ justify-content: space-between;
     gap: 20px;
 }
 .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding: 94px 30px;
 }
+
 .list-style{
     list-style:none;
     
@@ -161,6 +163,7 @@ color: var(--brand-color-blue);;
 .header-one-structure{
     text-align: center;
     background-color: var(--brand-background-dark);
+    
 }
 .header-one{
     font-weight: 900;
@@ -169,6 +172,7 @@ color: var(--brand-color-blue);;
         color: var(--brand-color-white);
         letter-spacing: 0.06em;
     text-align: center;
+    
     
     }
 
@@ -191,7 +195,15 @@ color: var(--brand-color-blue);;
     background-color: var(--brand-background-team);
 }
 
-
+.team-card{
+    padding-bottom: 30px;
+    background-color: var(--brand-color-white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        padding-bottom: 30px;
+        text-align: center;
+        
+}
 .team-name {
     font-weight: 500;
     font-size: 16px;
@@ -270,14 +282,39 @@ color: var(--brand-color-blue);;
     font-weight: 500;
     line-height: 1.625;
     font-family: 'Roboto', sans-serif;
-    /* padding: 0px 20px 0px 20px;
-    font-weight: 500;
-    height: 38px;
-    border-radius: 4px; */
+    padding: 6px 22px;
+    border-radius: 4px;
 }
 .portfolio-button:hover, .portfolio-button:focus, .portfolio-button:active{
     background-color: var(--brand-color-blue);
     color: var(--brand-color-white);
+}
+.portfolio-list-button{
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+        }
+
+
+
+.portfolio-grid{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 50px;
+            gap: 30px;
+}
+.portfolio-card{
+        background-color: var(--brand-color-white);
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        padding-bottom: 30px;
+        border: 1px solid #EEEEEE;
+        width: calc((100% - 60px) /3);
+
+}
+
+.portfolio-card-description {
+    padding: 20px 24px;
 }
 
 .visually-hidden {

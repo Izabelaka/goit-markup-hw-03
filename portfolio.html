@@ -23,86 +23,112 @@
 </head>
 
 <body>
-    <header>
-    <a class="logo" href="index.html"><span class="brand-color-blue">Web</span>Studio</a>
-        <nav>
-            <ul class="list-style">
-                <li><a class="menu-link" href="./index.html">Agencja</a></li>
-                <li><a class="menu-link-activ" href="/portfolio.html">Portfolio</a></li>
-                <li><a class="menu-link" href="./index.html">Kontakt</a></li>
+<header class="header">
+    <div class="container header-container">
+        <div class="header-container">
+            <a class="logo" href="index.html"><span class="brand-color-blue">Web</span>Studio</a>
+            <nav>
+                <ul class="list-style header-nav-container">
+                    <li><a class="menu-link-activ" href="/index.html">Agencja</a></li>
+                    <li><a href="./portfolio.html" class="menu-link">Portfolio</a></li>
+                    <li><a href="/index.html" class="menu-link">Kontakt</a></li>
                 </ul>
-        </nav>
-        <ul class="list-style">
-            <li><a class="menu-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="menu-contact-link" href="tel:48111111111">+48 111 111 111</a></li>
-        </ul>
-    </header>
+            </nav>
+        </div>
+        <div class="header-nav-container">
+            <ul class="list-style header-container">
+                <li><a class="menu-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="menu-contact-link" href="tel:48111111111">+48 111 111 111</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
 
 
     <main>
         <!--Filtr na Stronie portfolio-->
-        <section>
+        <section class="section">
+            <div class="container">
             <h1 class="visually-hidden">Portfolio</h1>
-            <ul class="list-style">
+            <ul class="list-style portfolio-list-button">
                <li><button type="button" class="portfolio-button">Wszystkie</button></li>
                 <li><button type="button" class="portfolio-button">Strony</button></li>
                 <li><button type="button" class="portfolio-button">Aplikacje</button><li>
                 <li><button type="button" class="portfolio-button">Dizajn</button></li>
                 <li><button type="button" class="portfolio-button">Marketing</button></li>
             </ul>
-            <ul class="list-style">
-                <li>
+            <ul class="list-style portfolio-grid" >
+                <li class="portfolio-card">
                     <img src="images/portfolio1.jpg" alt="strona internetowa" width="370" height="294">
-                    <h2 class="portfolio-header2">Technocrack</h2>
+                    <div class="portfolio-card-description">
+                        <h2 class="portfolio-header2">Technocrack</h2>
                     <p class="portfolio-filter">Strona internetowa</p>
+                    </div>
                 </li>
-                <li>
+                <li class="portfolio-card">
                     <img src="images/portfolio2.jpg" alt="dwóch koszykarzy" width="370" height="294">
+                    <div class="portfolio-card-description">
                     <h2 class="portfolio-header2">Grafika New Orlean vs Golden Star</h2>
                     <p class="portfolio-filter">Dizajn</p>
+                    </div>
                 </li>
-                <li>
+                <li class="portfolio-card">
                     <img src="images/portfolio3.jpg" alt="logo z rybą" width="370" height="294">
+                    <div class="portfolio-card-description">
                     <h2 class="portfolio-header2">Restauracja Seafood</h2>
                     <p class="portfolio-filter">Aplikacja</p>
+                    </div>
                 </li>
-                <li>
+                <li class="portfolio-card">
                     <img src="images/portfolio4.jpg" alt="słuchawki" width="370" height="294">
+                    <div class="portfolio-card-description">
                     <h2 class="portfolio-header2">Projekt Prime</h2>
                     <p class="portfolio-filter">Marketing</p>
+                    </div>
                 </li>
-                <li>
+                <li class="portfolio-card">
                     <img src="images/portfolio5.jpg" alt="dwa pudełka" width="370" height="294">
+                    <div class="portfolio-card-description">
                     <h2 class="portfolio-header2">Projekt Boxes</h2>
                     <p class="portfolio-filter">Aplikacja</p>
+                    </div>
                 </li>
-                <li>
+                <li class="portfolio-card">
                     <img src="images/portfolio6.jpg" alt="monitor" width="370" height="294">
+                    <div class="portfolio-card-description">
                     <h2 class="portfolio-header2">Inspiration has no Borders</h2>
                     <p class="portfolio-filter">Strona internetowa</p>
+                    </div>
                 </li>
-                <li>
+                <li class="portfolio-card">
                     <img src="images/portfolio7.jpg" alt="książka" width="370" height="294">
+                    <div class="portfolio-card-description">
                     <h2 class="portfolio-header2">Magazyn Limited Edition</h2>
                     <p class="portfolio-filter">Dizajn</p>
+                    </div>
                 </li>
-                <li>
+                <li class="portfolio-card">
                     <img src="images/portfolio8.jpg" alt="etykietka" width="370" height="294">
+                    <div class="portfolio-card-description">
                     <h2 class="portfolio-header2">Projekt LAB</h2>
                     <p class="portfolio-filter">Marketing</p>
+                    </div>
                 </li>
-                <li>
+                <li class="portfolio-card">
                     <img src="images/portfolio9.jpg" alt="laptop" width="370" height="294">
+                    <div class="portfolio-card-description">
                     <h2 class="portfolio-header2">Growing Business</h2>
                     <p class="portfolio-filter">Aplikacja</p>
+                    </div>
                 </li>
             </ul>
-              
+             </div> 
         </section>
     </main>
 
 
-    <footer class="footer">
+    <footer class="footer section">
+    <div class="container">
         <a class="footer-logo" href="index.html"><span class="brand-color-blue">Web</span>Studio</a>
         <address class="address style">
             <ul class="list-style">
@@ -112,8 +138,7 @@
                 <li><a class="footer-link-contact" href="tel:48111111111">+48 111 111 111</a></li>
             </ul>
         </address>
-
-    
+    </div>
     </footer>
 </body>
 
